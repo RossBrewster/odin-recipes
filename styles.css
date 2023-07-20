@@ -20,10 +20,13 @@ a {
     border-radius: 30px;
 }
 
+/* make background fit the size of the content */
 .list {
     text-align: center;
     background-color: beige;
     border-radius: 30px;
+    display: inline-block;
+    padding: 10px;
 }
 
 ul.items {
@@ -35,5 +38,6 @@ div.ordered-list {
     background-color: beige;
     border-radius: 30px;
     display: inline-block;
+    padding: 10px;
     text-align: left;
 }
